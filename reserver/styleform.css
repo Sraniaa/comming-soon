@@ -1,0 +1,44 @@
+
+.reservation{
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.logoo {
+    color: #ff7200;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    background-color: #00000000;
+
+}
+.logoo a {
+        text-decoration: none;
+        color: #ff7200;
+}
+.reser {  
+    color: #fff;
+}
+.title
+{
+    font-family: Arial, sans-serif;
+        font-size: 48px;
+        color: #ff7200;
+        text-align:start;
+}
+form {
+    width: 50%; /* Ajustez la largeur du formulaire à votre choix */
+    margin: auto; /* Centrez le formulaire horizontalement en utilisant des marges automatiques */
+    display: flex; /* Utilisez Flexbox pour centrer le formulaire verticalement */
+    flex-direction: column; /* Empilez les éléments du formulaire verticalement */
+    align-items:baseline; /* Centrez les éléments du formulaire horizontalement */
+    height: 100vh; /* Définissez la hauteur de la page pour centrer le formulaire verticalement */
+  }
+  
+form label{
+    color:white;
+}
